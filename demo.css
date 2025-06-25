@@ -1,3 +1,21 @@
 .box {
-  color: red;
+  color: green;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid goldenrod;
+  border-radius: 10px;
+  background-color: rebeccapurple;
+  width: 200px;
+  height: 200px;
+  box-shadow: 0 0 10px teal;
+  transition: all 0.3s ease-in-out;
+}
+
+.box:hover {
+  color: greenyellow;
+  background-color: darkblue;
+  box-shadow: 0 0 20px darkgrey;
 }
